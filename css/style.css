@@ -1,0 +1,85 @@
+
+
+.jumbotron {
+  text-align:center;
+  padding:10px !important;
+  opacity:0.87;
+}
+.jumbotron-fluid{
+    margin:0px;
+    position: absolute;
+    left:200px;
+    text-align:center;
+}
+#instr{
+    text-align:center;
+}
+#winBubble,
+#loseBubble {
+    width:10%;
+    float:left;
+    color:green;
+    overflow:auto;
+    font-weight: bold;
+    margin:5px;
+
+}
+#loseBubble {
+    color:red;
+
+}
+#WLOcontainer {
+    position:relative;
+    overflow:auto;
+    height:270px;
+}
+#wins,
+#loses {
+    font-size:40px;
+}
+#GAcontainer {
+    text-align:center;
+    color:white;
+    font-weight: bold;
+    height:300px;
+}
+#guessR {
+    background:#666666;
+}
+#GSF {
+    background:#333333;
+}
+#rightAns {
+    background:#666666;
+}
+#outlineContainter {
+    width: 80%;
+}
+#wholeContainer {
+    height: calc(100vh - 300px);
+}
+.catButtons {
+    width:16%;
+}
+#btnContainer {
+    text-align:center;
+    background:#e9ecef;
+    color:#333333;
+    padding-bottom:24px;
+    margin-bottom:32px;
+    opacity:0.87;
+}
+#bttnHeader {
+    text-align:left;
+}
+body {
+    background-image:url("../images/connectwork.png");
+}
+#hangmanImg {
+    position:relative;
+    height:230px;
+}
+#imgCont {
+    width:100%;
+    text-align:left;
+}
