@@ -74,7 +74,7 @@
         var Music = ["beyonce","jay z","elvis presley","drake","michael jackson","taylor swift","eminem","madonna","lady gaga","ed sheeran","david bowie","queen","the beatles","the rolling stones","led zepplin","the who","the doors","prince"]
         var Cities = ["dallas","houston","new york city","san diego","denver","orlando","miami","portland","seattle","raleigh","atlanta","chicago","new orleans","charlotte","austin","los angeles","san francisco","san antonio","philadelphia"]
         var States = ['alabama','alaska','arizona','arkansas','california','colorado','connecticut','delaware','district of columbia','florida','georgia','hawaii','idaho','illinois','indiana','iowa','kansas','kentucky','louisiana','maine','maryland','massachusetts','michigan','minnesota','mississippi','missouri','montana','nebraska','nevada','new hampshire','new jersey','new mexico','new york','north carolina','north dakota','ohio','oklahoma','oregon','pennsylvania','rhode island','south carolina','south dakota','tennessee','texas','utah','vermont','virginia','washington','west virginia','wisconsin','wyoming']
-        var Countries = ['united states of america','mexico','canada','germany','united kingdom','france','spain','italy','belgium','greece','poland','russia','norway','russia','finland','brazil']
+        var Countries = ['argentina','australia','bangladesh','bosnia','brazil','canada','chile','china','colombia','croatia','cuba','czechoslovakia','czech republic','egypt','estonia','finland','france','georgia','germany','greece','hong kong','hungary','india','iran','ireland','israel','italy','japan','mexico','netherlands','new zealand','norway','pakistan','philippines','poland','romania','russia','serbia','slovakia','slovenia','south korea','soviet union','spain','sri lanka','sweden','taiwan','turkey','ukraine','united kingdom','united states','uruguay','venezuela']
         // Declare Attachments to HTML Elements
         var outline = document.getElementById("outline");
         var loses = document.getElementById("loses");
@@ -150,7 +150,7 @@
                             if(e.key.toLowerCase()===computerChoice.charAt(i)){
                                 //declare that user has pressed a correct key (for determining if one should be subtracted from remaining guesses) & subtract one from wordcount
                                 keyFound = true;
-                                wordCount--;
+                                wordCount--; 
                                 console.log("Current wordCount: " + wordCount);
                                 //replace _ with correct key
                                 outline.textContent =replaceAt(outline.textContent, (i*2), e.key);

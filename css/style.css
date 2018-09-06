@@ -4,6 +4,7 @@
   text-align:center;
   padding:10px !important;
   opacity:0.87;
+  margin-bottom:5%;
 }
 .jumbotron-fluid{
     margin:0px;
@@ -16,12 +17,13 @@
 }
 #winBubble,
 #loseBubble {
-    width:10%;
+    width:5.5%;
     float:left;
     color:green;
     overflow:auto;
     font-weight: bold;
-    margin:5px;
+    margin: 0 1% 0 1%;
+    height:15vh;
 
 }
 #loseBubble {
@@ -31,7 +33,7 @@
 #WLOcontainer {
     position:relative;
     overflow:auto;
-    height:270px;
+    height:15vh;
 }
 #wins,
 #loses {
@@ -41,7 +43,7 @@
     text-align:center;
     color:white;
     font-weight: bold;
-    height:300px;
+    height:50vh;
 }
 #guessR {
     background:#666666;
@@ -54,9 +56,12 @@
 }
 #outlineContainter {
     width: 80%;
+    position:absolute;
+    left:15%;
+    margin:0;
 }
 #wholeContainer {
-    height: calc(100vh - 300px);
+    height: 50vh
 }
 .catButtons {
     width:16%;
@@ -68,6 +73,7 @@
     padding-bottom:24px;
     margin-bottom:32px;
     opacity:0.87;
+    vertical-align: center;
 }
 #bttnHeader {
     text-align:left;
@@ -77,9 +83,16 @@ body {
 }
 #hangmanImg {
     position:relative;
-    height:230px;
+    height:40vh;
 }
 #imgCont {
     width:100%;
     text-align:left;
+}
+#gametitle {
+    width:100%;
+    height:15%;
+}
+#outline {
+    height:10vh;
 }
